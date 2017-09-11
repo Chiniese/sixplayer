@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 设置状态栏颜色与toolbar相同相同 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- 窗口透明的导航栏 -->
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- 常用的标准字体的大小-->
+    <style name="custom">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+</resources>

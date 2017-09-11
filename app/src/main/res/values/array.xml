@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="TabTitles">
+        <item>电影</item>
+        <item>动画</item>
+        <item>电视剧</item>
+        <item>其他</item>
+    </array>
+    <array name="VideoInfoTitles">
+        <item>简介</item>
+        <item>评论</item>
+        </array>
+
+</resources>

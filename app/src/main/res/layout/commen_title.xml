@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text_color">
+
+        <at.markushi.ui.ActionView
+            android:id="@+id/btn_title_menu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            app:av_action="drawer"
+            app:av_color="#fff" />
+
+        <TextView
+            android:id="@+id/tv_title_title"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_title_userlogo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/btn_title_menu"
+            android:src="@mipmap/notloginhead" />
+
+        <TextView
+            android:id="@+id/tv_title_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_title_userlogo"
+            android:text="请登录"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/img_title_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/share"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+</LinearLayout>
